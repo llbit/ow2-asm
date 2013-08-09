@@ -187,7 +187,7 @@ public class CheckClassAdapter extends ClassVisitor {
             cr = new ClassReader(args[0]);
         }
 
-        verify(cr, false, new PrintWriter(System.err));
+        verify(cr, true, new PrintWriter(System.err));
     }
 
     /**
